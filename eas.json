@@ -19,6 +19,11 @@
       },
       "ios": {
         "resourceClass": "m-medium"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://fortify-backend.fly.dev/api/v1",
+        "EXPO_PUBLIC_SPOTIFY_CLIENT_ID": "placeholder_client_id",
+        "EXPO_PUBLIC_SPOTIFY_REDIRECT_URI": "fortify://spotify-callback"
       }
     }
   },
